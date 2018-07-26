@@ -14,4 +14,3 @@ RUN groupadd --gid 1001 dba && useradd -g dba -m --uid 1001 oracle
 
 VOLUME /u01/app/oracle/product/12.1.0/xe/dbs
 VOLUME /u01/app/oracle/oradata
-
